@@ -66,8 +66,8 @@ export function Header() {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <Link href="/" className="flex items-center space-x-3">
-                <div className="w-10 h-10 relative">
+              <Link href="/" className="flex items-center">
+                <div className="w-32 h-10 relative">
                   <Image
                     src="/images/ui/logo.svg"
                     alt="Raghu rash logo"
@@ -76,7 +76,6 @@ export function Header() {
                     priority
                   />
                 </div>
-                <span className="text-xl font-bold text-gold">Raghu rash</span>
               </Link>
             </div>
 
