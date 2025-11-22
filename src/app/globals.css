@@ -147,7 +147,7 @@ a:hover {
 
 /* Focus Styles for Accessibility */
 *:focus {
-  outline: 2px solid var(--color-sage);
+  outline: 2px solid var(--color-gold);
   outline-offset: 2px;
 }
 
@@ -155,9 +155,9 @@ button:focus,
 input:focus,
 textarea:focus,
 select:focus {
-  outline: 2px solid var(--color-sage);
+  outline: 2px solid var(--color-gold);
   outline-offset: 2px;
-  border-color: var(--color-sage);
+  border-color: var(--color-gold);
 }
 
 /* Skip Link for Screen Readers */
