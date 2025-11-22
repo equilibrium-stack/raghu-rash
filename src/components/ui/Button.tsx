@@ -1,14 +1,20 @@
 import React from 'react';
 import { cn } from '@/lib/utils';
+import Link from 'next/link';
 
-interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+interface ButtonProps {
   variant?: 'primary' | 'secondary' | 'outline' | 'ghost';
   size?: 'sm' | 'md' | 'lg';
   children: React.ReactNode;
+  className?: string;
+  href?: string;
+  disabled?: boolean;
+  onClick?: (event: React.MouseEvent) => void;
+  type?: 'button' | 'submit' | 'reset';
 }
 
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant = 'primary', size = 'md', children, ...props }, ref) => {
+  ({ className, variant = 'primary', size = 'md', children, href, disabled, onClick, type = 'button', ...props }, ref) => {
     const baseClasses = 'inline-flex items-center justify-center rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-sage focus:ring-offset-2 disabled:opacity-60 disabled:cursor-not-allowed';
 
     const variants = {
@@ -24,15 +30,32 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       lg: 'px-6 py-3 text-base min-h-[48px]'
     };
 
+    const classes = cn(
+      baseClasses,
+      variants[variant],
+      sizes[size],
+      className
+    );
+
+    if (href) {
+      return (
+        <Link
+          href={href}
+          className={classes}
+          {...props}
+        >
+          {children}
+        </Link>
+      );
+    }
+
     return (
       <button
-        className={cn(
-          baseClasses,
-          variants[variant],
-          sizes[size],
-          className
-        )}
+        className={classes}
         ref={ref}
+        type={type}
+        disabled={disabled}
+        onClick={onClick}
         {...props}
       >
         {children}
