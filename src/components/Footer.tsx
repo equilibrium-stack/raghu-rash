@@ -28,7 +28,7 @@ export function Footer() {
             <div className="mb-4">
               <div className="w-32 h-10 relative">
                 <Image
-                  src="/images/ui/logo.svg"
+                  src="/images/ui/logo.png"
                   alt="Raghu rash logo"
                   fill
                   className="object-contain"
