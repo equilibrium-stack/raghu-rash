@@ -82,7 +82,7 @@ function ProductsPageContent() {
           <div className="lg:w-64 flex-shrink-0">
             <div className="bg-white rounded-xl shadow-md border border-gray-200 p-6 sticky top-24">
               <div className="flex items-center justify-between mb-6">
-                <h2 className="text-lg font-semibold text-cinnamon">Filters</h2>
+                <h2 className="text-lg font-semibold text-gold">Filters</h2>
                 {(selectedCategory || sortBy !== 'featured') && (
                   <Button
                     variant="ghost"
@@ -97,7 +97,7 @@ function ProductsPageContent() {
 
               {/* Category Filter */}
               <div className="mb-6">
-                <h3 className="font-medium text-cinnamon mb-3">Category</h3>
+                <h3 className="font-medium text-gold mb-3">Category</h3>
                 <div className="space-y-2">
                   <button
                     onClick={() => handleCategoryChange('')}
