@@ -112,14 +112,14 @@ export function Header() {
 
               <Link
                 href="/about"
-                className="text-gray-700 hover:text-cinnamon transition-colors font-medium"
+                className="text-gray-700 hover:text-gold transition-colors font-medium"
               >
                 About
               </Link>
 
               <Link
                 href="/contact"
-                className="text-gray-700 hover:text-cinnamon transition-colors font-medium"
+                className="text-gray-700 hover:text-gold transition-colors font-medium"
               >
                 Contact
               </Link>
@@ -135,7 +135,7 @@ export function Header() {
                   // TODO: Open cart drawer
                   console.log('Open cart drawer');
                 }}
-                className="relative p-2 text-cinnamon hover:bg-cinnamon/10 rounded-full transition-colors"
+                className="relative p-2 text-gold hover:bg-gold/10 rounded-full transition-colors"
                 aria-label={`Shopping cart with ${cart.itemCount} items`}
               >
                 <svg
