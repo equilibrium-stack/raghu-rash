@@ -311,13 +311,31 @@ select:focus {
   h3 { font-size: clamp(1.125rem, 5vw, 1.5rem); }
 }
 
-/* Hero Photo Rotation Animation */
-@keyframes heroRotate {
-  0%, 50% {
+/* Hero Photo Sliding Animation */
+@keyframes heroSlide {
+  0% {
+    transform: translateX(0);
     opacity: 1;
   }
-  25%, 75% {
+  45% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-100%);
     opacity: 0;
+  }
+  50.01% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  95% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
