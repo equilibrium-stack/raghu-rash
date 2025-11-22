@@ -78,7 +78,7 @@ export function Header() {
             <nav className="hidden md:flex items-center space-x-8" role="navigation" aria-label="Main navigation">
               <Link
                 href="/"
-                className="text-gray-700 hover:text-cinnamon transition-colors font-medium"
+                className="text-gray-700 hover:text-gold transition-colors font-medium"
               >
                 Home
               </Link>
@@ -87,7 +87,7 @@ export function Header() {
               <div className="relative" ref={dropdownRef}>
                 <button
                   onClick={handleProductsToggle}
-                  className="flex items-center space-x-1 text-gray-700 hover:text-cinnamon transition-colors font-medium"
+                  className="flex items-center space-x-1 text-gray-700 hover:text-gold transition-colors font-medium"
                   aria-expanded={isProductsOpen}
                   aria-haspopup="true"
                 >
