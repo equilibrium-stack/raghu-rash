@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { ProductGrid } from '@/components/ProductGrid';
 import { Button } from '@/components/ui/Button';
@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/Badge';
 import { products, categories } from '@/data/products';
 import { Product } from '@/types';
 
-export default function ProductsPage() {
+function ProductsPageContent() {
   const searchParams = useSearchParams();
   const [filteredProducts, setFilteredProducts] = useState<Product[]>(products);
   const [selectedCategory, setSelectedCategory] = useState<string>('');
