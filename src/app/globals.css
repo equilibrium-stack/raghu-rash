@@ -51,6 +51,9 @@
 
 @theme inline {
   /* Colors */
+  --color-gold: var(--color-gold);
+  --color-gold-dark: var(--color-gold-dark);
+  --color-gold-light: var(--color-gold-light);
   --color-cinnamon: var(--color-cinnamon);
   --color-sage: var(--color-sage);
   --color-beige: var(--color-beige);
@@ -74,10 +77,10 @@
   --color-foreground: var(--color-charcoal);
 
   /* Custom Button Styles */
-  --btn-primary-bg: var(--color-sage);
-  --btn-primary-text: var(--color-white);
-  --btn-primary-border: var(--color-sage);
-  --btn-primary-hover: #6B8F75;
+  --btn-primary-bg: var(--color-gold);
+  --btn-primary-text: var(--color-charcoal);
+  --btn-primary-border: var(--color-gold);
+  --btn-primary-hover: var(--color-gold-dark);
 
   --btn-secondary-bg: var(--color-cinnamon);
   --btn-secondary-text: var(--color-white);
@@ -85,14 +88,14 @@
   --btn-secondary-hover: #4B1E1E;
 
   --btn-outline-bg: transparent;
-  --btn-outline-text: var(--color-cinnamon);
-  --btn-outline-border: var(--color-cinnamon);
-  --btn-outline-hover: rgba(91, 46, 46, 0.1);
+  --btn-outline-text: var(--color-gold);
+  --btn-outline-border: var(--color-gold);
+  --btn-outline-hover: rgba(218, 199, 162, 0.1);
 
   --btn-ghost-bg: transparent;
-  --btn-ghost-text: var(--color-sage);
+  --btn-ghost-text: var(--color-gold);
   --btn-ghost-border: transparent;
-  --btn-ghost-hover: rgba(123, 159, 133, 0.1);
+  --btn-ghost-hover: rgba(218, 199, 162, 0.1);
 }
 
 /* Base Styles */
