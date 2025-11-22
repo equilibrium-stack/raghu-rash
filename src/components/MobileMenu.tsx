@@ -36,11 +36,17 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
         <div className="flex flex-col h-full">
           {/* Header */}
           <div className="flex items-center justify-between p-4 border-b border-gray-200">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-sage rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">RR</span>
+            <div className="flex items-center space-x-3">
+              <div className="w-8 h-8 relative">
+                <Image
+                  src="/images/ui/logo.svg"
+                  alt="Raghu rash logo"
+                  fill
+                  className="object-contain"
+                  priority
+                />
               </div>
-              <span className="text-xl font-bold text-cinnamon">Raghu rash</span>
+              <span className="text-xl font-bold text-gold">Raghu rash</span>
             </div>
 
             <button
