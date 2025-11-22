@@ -3,8 +3,11 @@
 
 :root {
   /* Raghu Rash Design System Colors */
-  --color-cinnamon: #5B2E2E;      /* Dark cinnamon - headings, buttons, borders */
-  --color-sage: #7B9F85;          /* Sage green - CTAs, highlights, badges */
+  --color-gold: #DAC7A2;          /* Golden accent - headings, buttons, highlights (RGB 218, 199, 162) */
+  --color-gold-dark: #C4B080;     /* Darker gold for hover states */
+  --color-gold-light: #E8DABE;    /* Lighter gold for backgrounds */
+  --color-cinnamon: #5B2E2E;      /* Dark cinnamon - secondary accents */
+  --color-sage: #7B9F85;          /* Sage green - tertiary accents */
   --color-beige: #F7EFE6;         /* Warm beige - section backgrounds */
   --color-white: #FFFFFF;         /* White - cards, modals */
   --color-charcoal: #222222;      /* Charcoal - primary text */
