@@ -137,11 +137,11 @@ function ProductsPageContent() {
 
               {/* Sort Options */}
               <div>
-                <h3 className="font-medium text-cinnamon mb-3">Sort By</h3>
+                <h3 className="font-medium text-gold mb-3">Sort By</h3>
                 <select
                   value={sortBy}
                   onChange={(e) => handleSortChange(e.target.value)}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-sage focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
                 >
                   <option value="featured">Featured</option>
                   <option value="price-low">Price: Low to High</option>
