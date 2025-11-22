@@ -67,10 +67,10 @@ export function Header() {
             {/* Logo */}
             <div className="flex-shrink-0">
               <Link href="/" className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-sage rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">RR</span>
+                <div className="w-8 h-8 bg-gold rounded-full flex items-center justify-center">
+                  <span className="text-charcoal font-bold text-sm">RR</span>
                 </div>
-                <span className="text-xl font-bold text-cinnamon">Raghu rash</span>
+                <span className="text-xl font-bold text-gold">Raghu rash</span>
               </Link>
             </div>
 
