@@ -28,7 +28,7 @@ export function ProductsDropdown({ isOpen, onClose }: ProductsDropdownProps) {
                     className="flex items-center space-x-3 p-3 rounded-lg hover:bg-beige/50 transition-colors group"
                     onClick={onClose}
                   >
-                    <div className={`w-4 h-4 rounded-full bg-${category.color}-100`} />
+                    <div className="w-4 h-4 rounded-full bg-beige/50" />
                     <div>
                       <p className="font-medium text-gray-900 group-hover:text-cinnamon transition-colors">
                         {category.name}
