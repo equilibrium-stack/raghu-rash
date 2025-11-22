@@ -176,7 +176,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           <div className="p-4 border-t border-gray-200 bg-beige/20">
             <Link
               href="#"
-              className="flex items-center justify-center w-full p-3 rounded-lg bg-sage text-white hover:bg-[#6B8F75] transition-colors font-medium"
+              className="flex items-center justify-center w-full p-3 rounded-lg bg-gold text-charcoal hover:bg-gold-dark transition-colors font-medium"
               onClick={(e) => {
                 e.preventDefault();
                 // TODO: Open cart drawer
