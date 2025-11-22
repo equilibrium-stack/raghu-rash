@@ -63,18 +63,14 @@ export default function Home() {
               <div>
                 <div className="space-y-6">
                   <p className="text-lg text-muted leading-relaxed">
-                    For over three generations, Raghu rash has been dedicated to the art of traditional agarbatti making.
-                    Our handcrafted incense sticks are created using time-honored techniques passed down through our family,
-                    ensuring each bundle carries the essence of authentic Indian craftsmanship.
+                    [PUT YOUR FIRST PARAGRAPH HERE]
                   </p>
                   <p className="text-lg text-muted leading-relaxed">
-                    We source only the finest natural ingredients—premium frankincense from Somalia,
-                    authentic sandalwood from sustainable forests, and the purest floral blends from local gardens.
-                    Every batch is small-batch produced to maintain the highest quality and potency.
+                    [PUT YOUR SECOND PARAGRAPH HERE]
                   </p>
                   <blockquote className="border-l-4 border-sage pl-4 italic">
                     <p className="text-lg text-muted">
-                      "We don't just make incense; we preserve traditions and create moments of peace in your daily life."
+                      [PUT YOUR FOUNDER QUOTE HERE]
                     </p>
                     <footer className="mt-2 text-cinnamon font-semibold">
                       — Abhishek Chakravarti, Founder
