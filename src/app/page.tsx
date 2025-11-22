@@ -14,19 +14,34 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="relative h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden">
-          {/* Background Image */}
-          <div className="absolute inset-0">
-            <div className="w-full h-full bg-gradient-to-br from-beige/50 to-sage/30" />
-            <Image
-              src="/images/hero/company-photo.jpg"
-              alt="Raghu rash company photo — handcrafted agarbatti production"
-              fill
-              className="object-cover"
-              priority
-              sizes="100vw"
-            />
-            <div className="absolute inset-0 bg-black/30" />
-          </div>
+        {/* Background Images - Sliding */}
+        <div className="absolute inset-0">
+          <div className="w-full h-full bg-gradient-to-br from-beige/50 to-sage/30" />
+
+          {/* Image 1: company-photo.jpg */}
+          <Image
+            src="/images/hero/company-photo.jpg"
+            alt="Raghu rash company photo — handcrafted agarbatti production"
+            fill
+            className="object-cover absolute inset-0"
+            style={{ animation: 'heroSlide 8s infinite' }}
+            priority
+            sizes="100vw"
+          />
+
+          {/* Image 2: product-bundle.jpg */}
+          <Image
+            src="/images/hero/product-bundle.jpg"
+            alt="Raghu rash product bundle — handcrafted incense bundles"
+            fill
+            className="object-cover absolute inset-0"
+            style={{ animation: 'heroSlide 8s infinite', animationDelay: '4s' }}
+            priority
+            sizes="100vw"
+          />
+
+          <div className="absolute inset-0 bg-black/30" />
+        </div>
 
           {/* Hero Content */}
           <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
