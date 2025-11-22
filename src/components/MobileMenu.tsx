@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { categories, getFeaturedProducts } from '@/data/products';
 import { Badge } from '@/components/ui/Badge';
 import { useCart } from '@/hooks/useCart';
