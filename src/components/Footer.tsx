@@ -26,7 +26,7 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="mb-4">
-              <div className="w-32 h-10 relative">
+              <div className="w-48 h-14 relative">
                 <Image
                   src="/images/ui/logo.png"
                   alt="Raghu rash logo"
