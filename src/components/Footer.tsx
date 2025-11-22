@@ -25,8 +25,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="flex items-center space-x-3 mb-4">
-              <div className="w-10 h-10 relative">
+            <div className="mb-4">
+              <div className="w-32 h-10 relative">
                 <Image
                   src="/images/ui/logo.svg"
                   alt="Raghu rash logo"
@@ -34,7 +34,6 @@ export function Footer() {
                   className="object-contain"
                 />
               </div>
-              <span className="text-xl font-bold text-gold">Raghu rash</span>
             </div>
             <p className="text-muted mb-4">
               Handcrafted perfumed agarbatti made with natural ingredients. Traditional craftsmanship meets timeless scents for your daily rituals.
