@@ -66,9 +66,15 @@ export function Header() {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <Link href="/" className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-gold rounded-full flex items-center justify-center">
-                  <span className="text-charcoal font-bold text-sm">RR</span>
+              <Link href="/" className="flex items-center space-x-3">
+                <div className="w-10 h-10 relative">
+                  <Image
+                    src="/images/ui/logo.svg"
+                    alt="Raghu rash logo"
+                    fill
+                    className="object-contain"
+                    priority
+                  />
                 </div>
                 <span className="text-xl font-bold text-gold">Raghu rash</span>
               </Link>
