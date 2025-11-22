@@ -40,15 +40,11 @@ export default function Home() {
               Natural ingredients. Timeless scents. Rituals restored.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" asChild>
-                <Link href="/products">
-                  Shop Bestsellers
-                </Link>
+              <Button size="lg" href="/products">
+                Shop Bestsellers
               </Button>
-              <Button variant="outline" size="lg" className="bg-white/10 border-white text-white hover:bg-white/20" asChild>
-                <Link href="#about">
-                  About Raghu rash
-                </Link>
+              <Button variant="outline" size="lg" className="bg-white/10 border-white text-white hover:bg-white/20" href="#about">
+                About Raghu rash
               </Button>
             </div>
           </div>
