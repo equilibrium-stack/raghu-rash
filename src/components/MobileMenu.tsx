@@ -99,7 +99,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                           className="flex items-center space-x-2 p-2 rounded-lg hover:bg-beige/50 transition-colors"
                           onClick={onClose}
                         >
-                          <Badge variant={category.category} className="text-xs">
+                          <Badge variant={category.color} className="text-xs">
                             {category.name}
                           </Badge>
                           <span className="text-sm text-muted">{category.description}</span>
