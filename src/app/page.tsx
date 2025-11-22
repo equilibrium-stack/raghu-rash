@@ -112,10 +112,8 @@ export default function Home() {
             <ProductGrid products={featuredProducts} />
 
             <div className="text-center mt-12">
-              <Button variant="outline" size="lg" asChild>
-                <Link href="/products">
-                  View All Products
-                </Link>
+              <Button variant="outline" size="lg" href="/products">
+                View All Products
               </Button>
             </div>
           </div>
