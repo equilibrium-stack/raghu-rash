@@ -37,7 +37,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           {/* Header */}
           <div className="flex items-center justify-between p-4 border-b border-gray-200">
             <div className="flex items-center">
-              <div className="w-24 h-8 relative">
+              <div className="w-32 h-12 relative">
                 <Image
                   src="/images/ui/logo.png"
                   alt="Raghu rash logo"
