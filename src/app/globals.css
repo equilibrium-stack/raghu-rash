@@ -311,6 +311,16 @@ select:focus {
   h3 { font-size: clamp(1.125rem, 5vw, 1.5rem); }
 }
 
+/* Hero Photo Rotation Animation */
+@keyframes heroRotate {
+  0%, 50% {
+    opacity: 1;
+  }
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
 /* Respect prefers-reduced-motion */
 @media (prefers-reduced-motion: reduce) {
   *,
