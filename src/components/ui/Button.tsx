@@ -15,13 +15,13 @@ interface ButtonProps {
 
 export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant = 'primary', size = 'md', children, href, disabled, onClick, type = 'button', ...props }, ref) => {
-    const baseClasses = 'inline-flex items-center justify-center rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-sage focus:ring-offset-2 disabled:opacity-60 disabled:cursor-not-allowed';
+    const baseClasses = 'inline-flex items-center justify-center rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 disabled:opacity-60 disabled:cursor-not-allowed';
 
     const variants = {
-      primary: 'bg-sage text-white border-2 border-sage hover:bg-[#6B8F75] hover:border-[#6B8F75]',
+      primary: 'bg-gold text-charcoal border-2 border-gold hover:bg-gold-dark hover:border-gold-dark',
       secondary: 'bg-cinnamon text-white border-2 border-cinnamon hover:bg-[#4B1E1E] hover:border-[#4B1E1E]',
-      outline: 'bg-transparent text-cinnamon border-2 border-cinnamon hover:bg-cinnamon/10',
-      ghost: 'bg-transparent text-sage border-2 border-transparent hover:bg-sage/10'
+      outline: 'bg-transparent text-gold border-2 border-gold hover:bg-gold/10',
+      ghost: 'bg-transparent text-gold border-2 border-transparent hover:bg-gold/10'
     };
 
     const sizes = {
