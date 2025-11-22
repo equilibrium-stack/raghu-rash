@@ -154,7 +154,7 @@ export function Header() {
 
                 {/* Cart Badge */}
                 {cart.itemCount > 0 && (
-                  <span className="absolute -top-1 -right-1 bg-sage text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center min-w-[20px]">
+                  <span className="absolute -top-1 -right-1 bg-gold-dark text-charcoal text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center min-w-[20px]">
                     {cart.itemCount > 99 ? '99+' : cart.itemCount}
                   </span>
                 )}
@@ -163,7 +163,7 @@ export function Header() {
               {/* Mobile Menu Toggle */}
               <button
                 onClick={handleMobileMenuToggle}
-                className="md:hidden p-2 text-cinnamon hover:bg-cinnamon/10 rounded-full transition-colors"
+                className="md:hidden p-2 text-gold hover:bg-gold/10 rounded-full transition-colors"
                 aria-label="Toggle mobile menu"
                 aria-expanded={isMobileMenuOpen}
               >
