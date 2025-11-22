@@ -39,7 +39,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             <div className="flex items-center">
               <div className="w-24 h-8 relative">
                 <Image
-                  src="/images/ui/logo.svg"
+                  src="/images/ui/logo.png"
                   alt="Raghu rash logo"
                   fill
                   className="object-contain"
