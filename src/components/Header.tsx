@@ -67,7 +67,7 @@ export function Header() {
             {/* Logo */}
             <div className="flex-shrink-0">
               <Link href="/" className="flex items-center">
-                <div className="w-32 h-10 relative">
+                <div className="w-48 h-14 relative">
                   <Image
                     src="/images/ui/logo.png"
                     alt="Raghu rash logo"
