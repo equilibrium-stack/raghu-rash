@@ -11,11 +11,9 @@ export default function Home() {
   const featuredProducts = getFeaturedProducts();
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* Skip to main content for accessibility */}
-      <main id="main-content">
-        {/* Hero Section */}
-        <section className="relative h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden">
+    <>
+      {/* Hero Section */}
+      <section className="relative h-[90vh] min-h-[600px] flex items-center justify-center overflow-hidden">
           {/* Background Image */}
           <div className="absolute inset-0">
             <div className="w-full h-full bg-gradient-to-br from-beige/50 to-sage/30" />
