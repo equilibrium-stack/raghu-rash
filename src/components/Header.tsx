@@ -69,7 +69,7 @@ export function Header() {
               <Link href="/" className="flex items-center">
                 <div className="w-32 h-10 relative">
                   <Image
-                    src="/images/ui/logo.svg"
+                    src="/images/ui/logo.png"
                     alt="Raghu rash logo"
                     fill
                     className="object-contain"
